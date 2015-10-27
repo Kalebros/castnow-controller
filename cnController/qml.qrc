@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>FileDelegate.qml</file>
+        <file>FileForm.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="avi">images/movies.svg</file>
+        <file alias="subtitles">images/subtitles.svg</file>
+        <file alias="movies">images/totem.svg</file>
+    </qresource>
+</RCC>
