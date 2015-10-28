@@ -17,6 +17,7 @@
 ///   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ///
 //////////////////////////////////////////////////////////////////////////////
+
 #include "cnfileentry.h"
 
 CNFileEntry::CNFileEntry(QObject *parent,int id, QString name, QString format, bool subtitles) : QObject(parent)

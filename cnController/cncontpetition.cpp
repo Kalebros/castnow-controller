@@ -17,6 +17,7 @@
 ///   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ///
 //////////////////////////////////////////////////////////////////////////////
+
 #include "cncontpetition.h"
 
 CNContPetition::CNContPetition(QObject *parent, QString type, QHostAddress address, int port) :

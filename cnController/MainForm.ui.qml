@@ -15,7 +15,7 @@ Item {
         id: searchButton
         x: 269
         y: 236
-        text: qsTr("Pulsa para buscar servidores")
+        text: qsTr("Search servers")
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
     }
@@ -28,7 +28,7 @@ Item {
         height: (parent.height>parent.width) ? parent.height / 15 : parent.width / 15
         anchors.leftMargin: 15
         anchors.rightMargin: 15
-        text: qsTr("Button")
+        text: qsTr("Disconnect")
         opacity: 0
     }
 
@@ -87,7 +87,7 @@ Item {
                 target: disconnectButton
                 x: 270
                 y: 436
-                text: qsTr("Desconectar")
+                text: qsTr("Disconnect")
                 opacity: 1
             }
         },
@@ -110,7 +110,7 @@ Item {
                 target: disconnectButton
                 x: 270
                 y: 436
-                text: qsTr("Desconectar")
+                text: qsTr("Disconnect")
                 opacity: 0
             }
 

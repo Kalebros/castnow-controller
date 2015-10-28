@@ -63,7 +63,7 @@ Item {
             anchors.leftMargin: 15
             anchors.rightMargin: 15
             height: parent.height / 15
-            text: "Play without subtitles ("+id+")"
+            text: "Play without subtitles"
             onClicked: formularioBase.playFile(id,"")
         }
 
@@ -96,7 +96,7 @@ Item {
                     anchors.bottom: parent.bottom
                     anchors.right: parent.right
                     width: parent.width / 5
-                    text: "Play ("+id+")"
+                    text: "Play subtitles"
                     onClicked: formularioBase.playFile(id,sName)
                 }
             }

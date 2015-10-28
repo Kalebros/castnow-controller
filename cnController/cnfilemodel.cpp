@@ -17,6 +17,7 @@
 ///   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ///
 //////////////////////////////////////////////////////////////////////////////
+
 #include "cnfilemodel.h"
 
 CNFileModel::CNFileModel(QObject *parent, QList<CNFileEntry *> entry) : QAbstractTableModel(parent)

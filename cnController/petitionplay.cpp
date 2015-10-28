@@ -17,6 +17,7 @@
 ///   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ///
 //////////////////////////////////////////////////////////////////////////////
+
 #include "petitionplay.h"
 
 PetitionPlay::PetitionPlay(QObject *parent,QHostAddress address,int port,int id,QString subtitle)
